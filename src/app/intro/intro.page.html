@@ -1,0 +1,14 @@
+<ion-content>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide *ngFor="let slide of slides">
+      <ion-icon name="close-circle"(click)="finish()"></ion-icon>
+      <h1>{{slide.title}}</h1>
+      <h2>{{slide.subtitle}}</h2>
+      <ion-icon name={{slide.icon}}></ion-icon>
+      <img src = {{slide.img}}>
+      <p>{{slide.description}}</p>
+      <ion-button>Iniciar</ion-button>
+    </ion-slide>
+   
+  </ion-slides>
+</ion-content>

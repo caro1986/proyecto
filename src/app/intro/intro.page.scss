@@ -1,0 +1,45 @@
+ion-button{
+    --background: rgb(97, 4, 55);
+    --color: white;
+  }
+  ion-slides {
+    margin: 20px 20px 20px 20px;
+    height:var(--slide-height);//variable creada por mi
+    background-color:var(--ion-color-light);//variable utilizada del css
+    max-width: 800px;
+  }
+  .swiper-slide{
+    display:block;
+    margin-bottom: var(--slide-margin-bottom);//variable creada por mi
+    background-color:var(--slide-color-background); //utilice variable creada
+
+  }
+  
+  ion-slide > h1,h2 {
+    margin: 20px 20px 20px 20px;
+    color: maroon;
+    border-color: black;
+    border-style: dashed;
+  
+  }
+  
+  ion-slide > p {
+    padding: 20px 20px 20px 20px;
+    color: maroon;
+    font-style: italic;
+    font-size: 22px;
+    border-color: black;
+    border-style: dashed;
+  }
+  
+  ion-slide > ion-icon[name="close-circle"]{
+    float: right;
+    color: black;
+    font-size: 30px;
+  }
+  
+  ion-slide > ion-icon[name="musical-note-outline"]{
+    float: center;
+    color: rgb(143, 28, 28);
+    font-size: 20px;
+  }
