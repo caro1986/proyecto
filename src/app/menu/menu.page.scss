@@ -1,0 +1,39 @@
+menu{
+    text-align:center;
+    padding:20px 20px 20px 20px;
+    background-color: #e09ecac0;
+    border-color: rgb(90, 7, 49);
+    border-style: solid;
+    
+} 
+ion-toolbar{
+    --background: rgb(99, 12, 58);
+    --color: rgb(223, 204, 213);
+    
+  }
+  ion-list{
+    padding:20px 20px 20px 20px;
+    background-color:rgb(90, 7, 49);
+    
+    height: 90%;
+    border-style: solid;
+  }
+  ion-title {
+    padding:20px 20px 20px 20px;
+    background-color: #e09ecac0;
+    border-color: rgb(90, 7, 49);
+    border-style: solid;
+  }
+  ion-item{
+    background-color: #e09ecac0; 
+
+  }
+  ion-footer{
+    
+    border-color: rgb(90, 7, 49);
+    border-style: solid;
+  
+  }
+  
+    
+  

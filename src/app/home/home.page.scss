@@ -1,0 +1,52 @@
+ion-slides{
+    background-color: rgb(209, 156, 196);
+    height:160px;
+  }
+  ion-title{
+    color:#46e9f5;
+    background-color:black;
+    padding: 20px;
+  }
+  
+  
+  ion-avatar {
+    height: 150px;
+    width: 90%;
+  
+  }
+  
+  ion-menu-button{
+    color:#2adee4;
+    background-color:black;
+  }
+  ion-avatar span {
+    font-size: 15px;
+    margin-top:4px;
+  }
+  
+  ion-avatar img {
+    width: 90px;
+    height: 90px;
+  }
+  ion-col{
+    background-color:black;
+    padding: 20px;
+  }
+  ion-text{
+    color:#49F7E2;
+  }
+  ion-icon{
+    color:#5edff0;
+    font-size: 40px;
+  }
+  h1{
+    padding-left:20px;
+    color:pink;
+    background-color:black;
+  }
+  .square-avatar {
+    --border-radius: 0;
+  }
+
+  
+

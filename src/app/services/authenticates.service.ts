@@ -14,7 +14,7 @@ export class AuthenticateService {
 
   loginUser(credentials) { 
     return new Promise((accept, reject) => {
-      this.storage.get("user").then((data) => {      //CONTRASEÑA ENCRIPTADA
+      this.storage.get("user").then((data) => {     
         if (
           credentials.email == data.email && credentials.password == atob(data.password)
         ) {
@@ -25,14 +25,13 @@ export class AuthenticateService {
 
 
       }).catch( err => {
-        return reject("Fallo en el login")
+        return reject("Error en el login")
       }); 
     });
   }
   
-  registerUser(userData){                            //CONTRASEÑA DESENCRIPTADA 
+  registerUser(userData){                            
     userData.password = btoa(userData.password);
-    //atoa() funcion para desencriptar
     return this.storage.set("user", userData)
 
   }
